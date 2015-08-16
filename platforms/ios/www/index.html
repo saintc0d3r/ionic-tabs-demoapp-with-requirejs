@@ -13,17 +13,19 @@
     -->
 
     <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <!--<script src="lib/ionic/js/ionic.bundle.js"></script>-->
+    <!--<script src="lib/ngCordova/dist/ng-cordova.min.js"></script>-->
     <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+    <!--<script src="cordova.js"></script>-->
 
     <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
+    <!--<script src="js/app.js"></script>-->
+    <!--<script src="js/controllers.js"></script>-->
+    <!--<script src="js/services.js"></script>-->
+
+    <script src="lib/requirejs/require.js" data-main="js/main"></script>
   </head>
-  <body ng-app="demo-require-js" class="platform-ios platform-cordova platform-webview">
+  <body class="platform-ios platform-cordova platform-webview">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->

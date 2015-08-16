@@ -25,10 +25,10 @@
     <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     <name>demo-require-js</name>
     <description>
-        An Ionic Framework and Cordova project.
+    Using requirejs to manage JS files in Ionic's default tabs app.
     </description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+      Wendy Sanarwanto (saintc0d3r@gmail.com)
     </author>
     <content src="index.html" />
     <access origin="*" />

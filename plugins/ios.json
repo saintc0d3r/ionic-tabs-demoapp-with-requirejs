@@ -19,7 +19,7 @@
     },
     "installed_plugins": {
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "com.ionicframework.demorequirejs275692"
         }
     },
     "dependent_plugins": {}

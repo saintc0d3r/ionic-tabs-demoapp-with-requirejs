@@ -39,8 +39,8 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		15679B1767924B17B81201CF /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A47F616F9B334A57854C0570 /* IonicKeyboard.m */; };
-		1806E628E2E445A4B9AAB88E /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF68E15403C4D59A461BD34 /* UIWebViewExtension.m */; };
+		F080AB93D4584A67950B6773 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B970DA266145B48D55CF0F /* IonicKeyboard.m */; };
+		41ABC528B8FE4F1A99680D2D /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A0C015E794CA2BD2B346C /* UIWebViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,10 +106,10 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "demo-require-js/config.xml"; sourceTree = "<group>"; };
-		A47F616F9B334A57854C0570 /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		ADF68E15403C4D59A461BD34 /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		13F6C64D288148B2A272276E /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		2D6676EFEF124FCAAC2E1CF3 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		58B970DA266145B48D55CF0F /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E0A0C015E794CA2BD2B346C /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		27D9395A54F84B5A85C4D265 /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C8633A4EFA994336AAFA63B0 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,10 +208,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				A47F616F9B334A57854C0570 /* IonicKeyboard.m */,
-				ADF68E15403C4D59A461BD34 /* UIWebViewExtension.m */,
-				13F6C64D288148B2A272276E /* IonicKeyboard.h */,
-				2D6676EFEF124FCAAC2E1CF3 /* UIWebViewExtension.h */,
+				58B970DA266145B48D55CF0F /* IonicKeyboard.m */,
+				0E0A0C015E794CA2BD2B346C /* UIWebViewExtension.m */,
+				27D9395A54F84B5A85C4D265 /* IonicKeyboard.h */,
+				C8633A4EFA994336AAFA63B0 /* UIWebViewExtension.h */,
 			);
 			name = Plugins;
 			path = "demo-require-js/Plugins";
@@ -396,8 +396,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				15679B1767924B17B81201CF /* IonicKeyboard.m in Sources */,
-				1806E628E2E445A4B9AAB88E /* UIWebViewExtension.m in Sources */,
+				F080AB93D4584A67950B6773 /* IonicKeyboard.m in Sources */,
+				41ABC528B8FE4F1A99680D2D /* UIWebViewExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
